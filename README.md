@@ -7,7 +7,7 @@ Single Page Drag/Drop application to create AEM Dialogs.
 ## Installation / Setup
 
 ```
-npm i
+npm i --force
 ```
 
 ```
