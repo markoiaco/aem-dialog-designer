@@ -25,9 +25,7 @@ const EditComponentTextfield = ({
       type="text"
       name={id}
       id={id}
-      labelledby={`label_${id}`}
       aria-labelledby={`label_${id}`}
-      variant="default"
       data-is-invalid={`${!isValid}`}
       value={value}
       onChange={({ target }) => updateFieldValue(id, target.value)}

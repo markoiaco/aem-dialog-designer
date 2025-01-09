@@ -19,7 +19,6 @@ const Footer = ({
         <button
           type="button"
           icon=""
-          variant="warning"
           className="_coral-Button _coral-Button--warning"
           title="Complete Reset"
           size="M"
@@ -35,7 +34,6 @@ const Footer = ({
       <div className="footer_right">
         <button
           icon=""
-          variant="cta"
           className="_coral-Button _coral-Button--cta"
           title="Download XML"
           size="M"
@@ -50,7 +48,6 @@ const Footer = ({
         </button>
         <button
           icon=""
-          variant="cta"
           className="_coral-Button _coral-Button--cta"
           title="Download ACG JSON"
           size="M"
@@ -66,7 +63,6 @@ const Footer = ({
         <hr className="separator--vertical" />
         <button
           icon=""
-          variant="secondary"
           className="_coral-Button _coral-Button--secondary"
           title="Download JSON"
           size="M"
@@ -80,7 +76,6 @@ const Footer = ({
           <coral-button-label className="_coral-Button-label">Download JSON</coral-button-label>
         </button>
         <div
-          variant="secondary"
           className="_coral-Button _coral-Button--secondary _hidden-file-input-wrapper"
           onClick={triggerInputFile}
           onKeyDown={triggerInputFile}

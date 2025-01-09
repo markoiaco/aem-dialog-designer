@@ -31,6 +31,7 @@ const Contextmenu = ({
         icon="wrench"
         variant="quiet"
         title="Edit"
+        aria-label="button"
         size="M"
         onClick={() => startUpdateComponent()}
       >
@@ -41,6 +42,7 @@ const Contextmenu = ({
         icon="ArrowUp"
         variant="quiet"
         title="Move Up"
+        aria-label="button"
         size="M"
         type="button"
         onClick={() => moveComponentUp()}
@@ -54,6 +56,7 @@ const Contextmenu = ({
         title="Move Down"
         size="M"
         type="button"
+        aria-label="button"
         onClick={() => moveComponentDown()}
       >
         <coral-button-label className="_coral-Button-label" />
@@ -64,6 +67,7 @@ const Contextmenu = ({
         variant="quiet"
         title="Copy"
         size="M"
+        aria-label="button"
         type="button"
         onClick={() => copyComponent()}
       >
@@ -76,9 +80,10 @@ const Contextmenu = ({
         title="Cut"
         size="M"
         type="button"
+        aria-label="button"
         onClick={() => cutComponent()}
       >
-        <coral-button-label className="_coral-Button-label" />
+        <coral-button-label className="_coral-Button-label" aria-label="button" />
       </button>
       <button
         is="coral-anchorbutton"
@@ -89,7 +94,7 @@ const Contextmenu = ({
         type="submit"
         onClick={() => pasteComponentBefore()}
       >
-        <coral-button-label className="_coral-Button-label" />
+        <coral-button-label className="_coral-Button-label" aria-label="button" />
       </button>
       <button
         is="coral-anchorbutton"
@@ -100,7 +105,7 @@ const Contextmenu = ({
         type="submit"
         onClick={() => pasteComponentAfter()}
       >
-        <coral-button-label className="_coral-Button-label" />
+        <coral-button-label className="_coral-Button-label" aria-label="button" />
       </button>
       <button
         is="coral-anchorbutton"
@@ -109,6 +114,7 @@ const Contextmenu = ({
         title="Delete"
         size="M"
         type="button"
+        aria-label="button"
         onClick={() => deleteComponent()}
       >
         <coral-button-label className="_coral-Button-label" />

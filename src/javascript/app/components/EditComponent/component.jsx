@@ -22,20 +22,16 @@ const EditComponent = ({
       <div className="edit-component__backdrop" />
       <div
         className="cq-Dialog _coral-BaseOverlay _coral-Dialog-wrapper cq-dialog-floating is-open"
-        backdrop="none"
-        variant="default"
         role="dialog"
-        closable="off"
         open="open"
         aria-hidden="false"
       >
-        <div handle="topTabCapture" coral-tabcapture="top" role="presentation" />
-        <div handle="wrapper">
+        <div className="wrapper">
           <div
             className="coral-Form--vertical cq-dialog foundation-form foundation-layout-form _coral-Dialog _coral-Dialog--noBackdrop is-open"
           >
-            <div className="_coral-Dialog-header u-coral-openHand" handle="headerWrapper">
-              <div className="_coral-Dialog-dragZone" handle="dragZone" />
+            <div className="_coral-Dialog-header u-coral-openHand">
+              <div className="_coral-Dialog-dragZone" />
               <coral-dialog-header className="cq-dialog-header _coral-Dialog-title" id="coral-id-631-add">
                 <div className="cq-dialog-actions u-coral-pullRight" />
                 Component Properties
@@ -117,8 +113,6 @@ const EditComponent = ({
             <div className="_coral-Dialog-footer">
               <button
                 type="button"
-                icon=""
-                variant="default"
                 className="cq-dialog-header-action cq-dialog-cancel _coral-Button _coral-Button--primary"
                 title="Cancel"
                 size="M"
@@ -128,8 +122,6 @@ const EditComponent = ({
               </button>
               <button
                 disabled={!allFieldsValid(fields)}
-                icon=""
-                variant="cta"
                 className="_coral-Button _coral-Button--cta"
                 title="Save"
                 size="M"
@@ -141,8 +133,6 @@ const EditComponent = ({
             </div>
           </div>
         </div>
-        <div handle="intermediateTabCapture" coral-tabcapture="intermediate" role="presentation" />
-        <div handle="bottomTabCapture" coral-tabcapture="bottom" role="presentation" />
       </div>
     </>
   ) : null

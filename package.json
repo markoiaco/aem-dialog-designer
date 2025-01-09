@@ -80,7 +80,7 @@
     "jsoneditor-react": "^3.0.0",
     "loadicons": "^1.0.0",
     "mini-css-extract-plugin": "^0.9.0",
-    "node-sass": "^4.14.1",
+    "sass": "^1.49.9",
     "node-watch": "^0.6.4",
     "nodemon": "^2.0.4",
     "object-path": "^0.11.5",

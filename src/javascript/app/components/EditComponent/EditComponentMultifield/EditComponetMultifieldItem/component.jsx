@@ -39,6 +39,7 @@ const EditComponentMultifieldItem = ({
       title="Delete"
       size="M"
       type="button"
+      aria-label="button"
       onClick={() => deleteMultifieldItem()}
     >
       <coral-button-label className="_coral-Button-label" />

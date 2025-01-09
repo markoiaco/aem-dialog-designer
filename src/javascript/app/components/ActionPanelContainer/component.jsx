@@ -106,6 +106,7 @@ class ActionPanelContainer extends React.Component {
           className="action-panel__closer"
           onClick={closeActionPanel}
           type="button"
+          aria-label="log out"
         >
           <coral-icon
             icon="close"
