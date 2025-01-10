@@ -4,6 +4,10 @@
 
 Single Page Drag/Drop application to create AEM Dialogs.
 
+## Requirements
+at least
+-- npm v11.0.0
+-- node v22.13.0
 ## Installation / Setup
 
 ```
