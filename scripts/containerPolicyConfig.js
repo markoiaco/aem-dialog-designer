@@ -32,6 +32,12 @@ module.exports = {
       'radio',
       'select',
       'pathfield',
+      'multifield',
+      'fieldset',
+      'group:Standard',
+      'group:Resource',
+      'group:Selection',
+      'group:Authoring Helper',
     ],
     fs: [
       'multifield',
